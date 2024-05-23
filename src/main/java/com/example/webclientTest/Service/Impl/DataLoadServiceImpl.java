@@ -11,7 +11,7 @@ import java.io.IOException;
 @Service
 public class DataLoadServiceImpl implements DataLoadService {
     public String postData(){
-        File file = new File("D:\\BackendProject\\WebClientTest\\src\\main\\java\\com\\example\\webclientTest\\new 13(1).txt");
+        File file = new File("./src/main/java/com/example/webclientTest/new 13(1).txt");
         ObjectMapper mapper = new ObjectMapper();
         PostResultForm postResultForm;
         String jsonString;
